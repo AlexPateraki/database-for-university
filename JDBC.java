@@ -283,6 +283,10 @@ public void printStudetsGrade(int typicalyear,String typicalseason,int amka) {
 		}		
 	}
 	
+	public enum semester_season_type {	
+	winter, spring;
+}
+	
 	public static void printMenu() {
 		System.out.println("1) connect to a server postgresql");
 		System.out.println("2) commit current transaction / start new");
