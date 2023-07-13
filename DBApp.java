@@ -1,4 +1,4 @@
-package JDBC;
+package DBApp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
